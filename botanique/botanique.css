@@ -1,0 +1,440 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display+SC&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display SC', serif;
+
+}
+
+/* HEADER  HEADER HEADER HEADER HEADER HEADER HEADER HEADER HEADER*/
+
+header {
+    background-color: #061F08;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 77%;
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #939f1c;
+}
+
+header nav ul li {
+    padding: 8px 23px;
+}
+
+header nav ul li:hover {
+    background: white;
+    transition: ease-in 0.1s;
+    color: black;
+    border-radius: 5%;
+}
+
+
+
+.titlePage{
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+    border: 2px solid goldenrod;
+    width: fit-content;
+    margin: 80px;
+  }
+  .titlePage h1{
+    border-bottom: solid;
+    margin-left: 40%;  
+    border: 2px solid goldenrod;
+    padding: 5px 31px;
+    font-family: 'Abril Fatface', cursive;
+    width: fit-content;
+  }
+
+/* ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL  ACCUEIL */
+
+#allAccueil main {
+    margin: 50px;
+}
+
+#allAccueil main h2 {
+    font-size: 25px;
+    padding-bottom: 6%;
+}
+
+#allAccueil #newItems {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 30px; */
+}
+
+#allAccueil .item {
+    width: 259px;
+    height: 370px;
+}
+
+#allAccueil .item img {
+    width: 100%;
+    border: 6px solid black;
+}
+
+#allAccueil .infoItem {
+    display: flex;
+    margin-right: 10%;
+}
+
+#allAccueil .titleNews {
+    margin-left: 18%;
+    margin-right: 112px;
+}
+
+#allAccueil .infoItem h3 {
+    border: 3px solid #dba521;
+    padding: 8px 20px;
+    font-size: 17px;
+    color: #dba521;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+
+}
+
+#allAccueil .infoItem .cadre {
+    width: 91px;
+    height: 36px;
+    border: 3px solid #dba521;
+    bottom: 54px;
+    position: relative;
+    right: -14px;
+}
+
+#allAccueil infoItem p {
+    margin-left: 38%;
+}
+
+/* PRESENTATION PRESENTATION PRESENTATION PRESENTATION PRESENTATION PRESENTATION PRESENTATION PRESENTATION */
+#partenaire {
+    display: flex;
+    min-height: 700px;
+    flex-direction: column;
+    padding-top: 5%;
+}
+
+/* PARTENAIRES  PARTENAIRES  PARTENAIRES  PARTENAIRES  PARTENAIRES  PARTENAIRES  PARTENAIRES  PARTENAIRES  */
+
+#presentation {
+  display: flex;
+  min-height: 700px;
+  flex-direction: column;
+  padding-top: 5%;
+}
+.reverse {
+    display: flex;
+    padding: 0%;
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+.row-reverse a,.reverse a{
+    width: 15%;
+}
+.row-reverse {
+  display: flex;
+  padding-bottom: 5%;
+  flex-direction: row-reverse;
+  padding-right: 10%;
+}
+.reverse p {
+  width: 70%;
+}
+
+.row-reverse p {
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+#hiboux {
+  background: #071f09;
+  border-radius: 50%;
+  margin-left: 5%;
+}
+#plantes {
+  width: 15%;
+}
+#fleur {
+  width: 15%;
+}
+#arbustes {
+  width: 15%;
+}
+#fruit-legumes {
+  width: 15%;
+}
+#partenaire img{
+  width: 100%;
+}
+/* #partenaire #arbustes {
+    width: 50%;
+  } */
+/* PLANTES  PLANTES  PLANTES  PLANTES  PLANTES  PLANTES  PLANTES  PLANTES  PLANTES  PLANTES  PLANTES */
+#allPlantes h2{
+    margin-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 33px;
+
+}
+.info-plante-exterieur{
+    display: grid;
+    grid-template-columns: 1FR 1FR;
+    gap: 40px;
+    padding: 60px;
+  }
+  .plante-exterieur{
+    display: flex;
+    align-items: center;
+  }
+  .plante-exterieur img{
+    width: 30%;
+    border: 20px solid;
+  }
+  .plante-exterieur ul{
+    margin-right: 50px;
+    margin-left: 20px;
+    list-style: none;
+  }
+  .plante-exterieur .details{
+    display: flex;
+  }
+  .plante-exterieur li, .plante-exterieur p{
+    padding-bottom: 10px;
+  }
+  .info-plante-interieur{
+    display: grid;
+    grid-template-columns: 1FR 1FR;
+    gap: 40px;
+    padding: 60px;
+  }
+  .plante-interieur{
+    display: flex;
+    align-items: center;
+  }
+  .plante-interieur img{
+    width: 30%;
+    border: 20px solid;
+  }
+  .plante-interieur ul{
+    margin-right: 50px;
+    margin-left: 20px;
+    list-style: none;
+  }
+  .plante-interieur .details{
+    display: flex;
+  }
+  .plante-interieur li, .plante-interieur p{
+    padding-bottom: 10px;
+  }
+/* FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR FLEUR */
+
+#allfleurs #fleurs {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1FR 1FR 1FR;
+}
+
+#allfleurs #fleurs .fleurs-item{
+  display: grid;
+  grid-template-rows: 4em 1FR 100px;
+  justify-content: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+#allfleurs #fleurs .fleurs-item .namefleurs{
+  text-align: center;
+  background: goldenrod;
+  width: 46%;
+  padding: 2px 25px;
+  position: relative;
+  justify-self: center;
+  top: 29px;
+
+}
+#allfleurs #fleurs .fleurs-item .namefleurs h3{
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    z-index: 10;
+    right: 10px;
+  }
+  #allfleurs .fleurs-imgANDp{
+    width: 282px;
+    height: 419px;
+    border-bottom: 103px solid;
+    border-left: 38px solid;
+    border-right: 38px solid;
+    border-top: 38px solid;
+  }
+  #allfleurs #fleurs .fleurs-item img{
+    width: 100%;
+  }
+  #allfleurs #fleurs .fleurs-item p{
+    text-align: center;
+    color: black;
+    background: white;
+    padding: 5px;
+  }
+
+/* LEGUMES  LEGUMES  LEGUMES  LEGUMES  LEGUMES  LEGUMES  LEGUMES */
+#allLegumes #vegetables {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR;
+}
+#allLegumes .titlePage{
+    border: 2px solid goldenrod;
+    width: fit-content;
+    padding: 0px 18px;
+    margin: 80px;
+}
+#allLegumes .titlePage h1{
+    border: 2px solid goldenrod;
+    padding: 5px 31px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#allLegumes #vegetables .item{
+    display: grid;
+    grid-template-rows: 4em 1FR 100px;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#allLegumes #vegetables .item .nameVeg{
+    text-align: center;
+    background: goldenrod;
+    width: 46%;
+    padding: 2px 25px;
+    position: relative;
+    justify-self: center;
+    top: 29px;
+
+}
+#allLegumes #vegetables .item .nameVeg h3{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    right: 10px;
+}
+#allLegumes .imgANDp{
+    width: 282px;
+    height: 419px;
+    border-bottom: 103px solid;
+    border-left: 38px solid;
+    border-right: 38px solid;
+    border-top: 38px solid;
+}
+#allLegumes #vegetables .item img{
+    width: 100%;
+}
+
+#allLegumes #vegetables .item p{
+    text-align: center;
+    color: black;
+    background: white;
+    padding: 5px;
+}
+
+
+/* ARBUSTES  ARBUSTES  ARBUSTES  ARBUSTES  ARBUSTES  ARBUSTES  ARBUSTES */
+
+#allArbustes section{
+    margin: 5%;
+}
+#allArbustes .item{
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+}
+#allArbustes .item img{
+    width: 40%;
+    border: 38px solid;
+    margin-right: 100px;
+}
+#allArbustes .item h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+}
+
+
+/* FOOTER  FOOTER  FOOTER  FOOTER  FOOTER  FOOTER  FOOTER  FOOTER */
+
+
+footer {
+    padding: 40px;
+    background-color: #061F08;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer #socialIcon {
+    display: flex;
+    padding: 30px;
+}
+
+footer #socialIcon i {
+    font-size: 3.2em;
+    color: wheat;
+    padding-left: 10px;
+}
+
+footer #socialIcon i:hover {
+    color: gold;
+}
+
+footer #collaborators {
+    display: flex;
+    flex-direction: column;
+    padding-top: 21px;
+}
+
+footer #collaborators h3,
+footer #navigation h3 {
+    color: wheat;
+    padding-bottom: 23px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 23px;
+}
+
+footer a:hover {
+    color: wheat;
+}
+
+footer #navigation ul {
+    list-style: none;
+    padding-left: 0;
+    line-height: 2em;
+}
+
